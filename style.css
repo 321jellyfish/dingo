@@ -50,6 +50,15 @@ section {
     background-color: rgb(255, 255, 255, 0.8);
 }
 
+h3 + p {
+    text-align: left;
+}
+
+li {
+    text-align: left;
+    padding: 0.01em;
+}
+
 a {
     text-decoration: none;
 }
