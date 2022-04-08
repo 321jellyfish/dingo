@@ -59,11 +59,19 @@ section {
 
 a, a:visited {
     text-decoration: none;
-    color: black;
+    color: 	rgb(0, 0, 0);
 }
 
 a:hover {
-    color: purple;
+    color: rgb(128, 0, 128);
+}
+
+li a {
+    color: rgb(100, 149, 237);
+}
+
+a:visited {
+    color: rgb(128, 128, 128);
 }
 
 .fav-websites::before {
