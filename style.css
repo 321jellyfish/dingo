@@ -18,6 +18,8 @@ img {
 
 h1, h2 {
     font-family: 'Grape Nuts', cursive;
+    background-color: rgb(255, 255, 255, 0.8);
+    padding: 0.5em;
 }
 
 h1 {
@@ -31,7 +33,12 @@ h2 {
     margin-bottom: 0.5em;
 }
 
-p {
-    background-color: white;
-    padding: 3em;
+
+.fav-websites {
+    list-style: none;
 }
+
+
+[class|="fav-websites"]::before {
+    content: "🇦🇺";
+  }
