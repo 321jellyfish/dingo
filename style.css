@@ -52,29 +52,16 @@ section {
     background-color: rgba(72, 209, 204, 0.5);
 }
 
-h3 + p {
-    text-align: left;
-}
-
-a {
+a, a:visited {
     text-decoration: none;
+    color: black;
 }
 
 a:hover {
-    color: green;
+    color: purple;
 }
 
-a:active {
-    color: gray;
-}
-
-a:visited {
-    color: darkgray;
-}
-
-
-
- .fav-websites::before {
+.fav-websites::before {
     content: "🇦🇺  ";
     margin-right: 10px;
 }
@@ -86,7 +73,6 @@ a:visited {
 li {
     text-align: left;
     list-style: none;
-    padding: 0px;
     margin: 0px;
     text-indent: -1.4rem;
     padding: 0.3rem;
