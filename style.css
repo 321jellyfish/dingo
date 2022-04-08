@@ -16,7 +16,7 @@ img {
     border-width: 10px;
 }
 
-h1, h2 {
+h1, h2, footer {
     font-family: 'Grape Nuts', cursive;
     background-color: rgb(255, 255, 255, 0.8);
     padding: 0.5em;
@@ -59,3 +59,7 @@ section {
     content: "🇦🇺";
   }
 
+
+footer {
+    margin-top: 2em;
+}
