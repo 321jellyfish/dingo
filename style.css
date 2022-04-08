@@ -80,13 +80,30 @@ a:visited {
     color: darkgray;
 }
 
-.fav-websites {
+/* .fav-websites {
     list-style: none;
-} 
+}  */
 
+/*
 [class|="fav-websites"]::before {
     content: "🇦🇺";
-  } 
+    position: relative;
+    right: 20px;
+  } */
+
+ .fav-websites::before {
+    content: "🇦🇺";
+    margin-right: 10px;
+}
+
+.fav-websites {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    text-indent: -0.8rem;
+    padding: 0.3rem;
+    margin-right:
+}
 
 
 
