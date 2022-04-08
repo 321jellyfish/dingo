@@ -12,6 +12,8 @@ img {
     height: 300px;
     border-radius: 9px;
     border-style: solid;
+    border-color: white;
+    border-width: 10px;
 }
 
 h1, h2 {
@@ -27,4 +29,9 @@ h2 {
     font-size: 3em;
     margin-top: 0.5em;
     margin-bottom: 0.5em;
+}
+
+p {
+    background-color: white;
+    padding: 3em;
 }
