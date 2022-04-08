@@ -8,7 +8,7 @@ body {
 }
 
 img {
-    height: 300px;
+    max-height: 300px;
     border-radius: 0.5rem;
     border-style: solid;
     border-color: rgb(255, 255, 255);
