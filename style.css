@@ -51,7 +51,7 @@ section {
 }
 
 .card-layout {
-    width: 200px;
+    max-width: 200px;
     border-radius: 0.5rem;
     padding: 2rem;
     background-color: rgba(72, 209, 204, 0.5);
