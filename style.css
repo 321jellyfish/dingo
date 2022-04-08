@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif&display=swap');
+
+body {
+    background-color: 	rgb(255, 160, 122, 0.4);
+    text-align: center;
+    list-style: inside;
+    font-family: 'Roboto Serif', serif;
+}
+
+img {
+    height: 300px;
+    border-radius: 9px;
+    border-style: solid;
+}
+
+h1, h2 {
+    font-family: 'Grape Nuts', cursive;
+}
+
+h1 {
+    font-size: 4em;
+    margin-bottom: 0.5em;
+}
+
+h2 {
+    font-size: 3em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
