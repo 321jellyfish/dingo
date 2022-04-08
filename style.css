@@ -50,6 +50,22 @@ section {
     background-color: rgb(255, 255, 255, 0.8);
 }
 
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: green;
+}
+
+a:active {
+    color: gray;
+}
+
+a:visited {
+    color: darkgray;
+}
+
 .fav-websites {
     list-style: none;
 }
