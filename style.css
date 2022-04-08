@@ -26,16 +26,16 @@ h1 {
     margin-bottom: 0.5em;
 }
 
-h3 {
-    font-family: 'Grape Nuts', cursive;
-    font-size: x-large;
-    margin-top: 0.5rem;
-}
-
 h2 {
     font-size: 3em;
     margin-top: 0.5em;
     margin-bottom: 0.5em;
+}
+
+h3 {
+    font-family: 'Grape Nuts', cursive;
+    font-size: x-large;
+    margin-top: 0.5rem;
 }
 
 section {
@@ -46,9 +46,6 @@ section {
 }
 
 .card-layout {
-    /* border-style: solid;
-    border-color: white;
-    border-width: 3px; */
     width: 200px;
     border-radius: 15px;
     padding: 2em;
@@ -57,11 +54,6 @@ section {
 
 h3 + p {
     text-align: left;
-}
-
-li {
-    text-align: left;
-    padding: 0.3rem;
 }
 
 a {
@@ -80,6 +72,8 @@ a:visited {
     color: darkgray;
 }
 
+
+
  .fav-websites::before {
     content: "🇦🇺  ";
     margin-right: 10px;
@@ -90,14 +84,13 @@ a:visited {
 }
 
 li {
+    text-align: left;
     list-style: none;
     padding: 0px;
     margin: 0px;
     text-indent: -1.4rem;
     padding: 0.3rem;
-    margin-right:
 }
-
 
 #number-1::before {
     content: "1️⃣  "
