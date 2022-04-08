@@ -21,15 +21,15 @@ h1, h2, footer {
     padding: 0.5em;
 }
 
+h1 {
+    font-size: 4em;
+    margin-bottom: 0.5em;
+}
+
 h3 {
     font-family: 'Grape Nuts', cursive;
     font-size: x-large;
     margin-top: 0.5rem;
-}
-
-h1 {
-    font-size: 4em;
-    margin-bottom: 0.5em;
 }
 
 h2 {
@@ -80,32 +80,44 @@ a:visited {
     color: darkgray;
 }
 
-/* .fav-websites {
-    list-style: none;
-}  */
-
-/*
-[class|="fav-websites"]::before {
-    content: "🇦🇺";
-    position: relative;
-    right: 20px;
-  } */
-
  .fav-websites::before {
-    content: "🇦🇺";
+    content: "🇦🇺  ";
     margin-right: 10px;
 }
 
-.fav-websites {
+.fav-things::before{
+    content: "💙  ";
+}
+
+li {
     list-style: none;
     padding: 0px;
     margin: 0px;
-    text-indent: -0.8rem;
+    text-indent: -1.4rem;
     padding: 0.3rem;
     margin-right:
 }
 
 
+#number-1::before {
+    content: "1️⃣  "
+}
+
+#number-2::before {
+    content: "2️⃣  "
+}
+
+#number-3::before {
+    content: "3️⃣  "
+}
+
+#number-4::before {
+    content: "4️⃣  "
+}
+
+#number-5::before {
+    content: "5️⃣  "
+}
 
 
 footer {
